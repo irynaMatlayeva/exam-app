@@ -1,5 +1,5 @@
-import CardList from '../CardList/CardList';
 import BannersList from '../Banners/BannersList';
+import CardList from '../CardList/CardList';
 import './App.scss';
 
 function App () {
