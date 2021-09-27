@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/exam-app/static/css/main.8c0c09c5.chunk.css",
+    "main.js": "/exam-app/static/js/main.9e4386f3.chunk.js",
+    "main.js.map": "/exam-app/static/js/main.9e4386f3.chunk.js.map",
+    "runtime-main.js": "/exam-app/static/js/runtime-main.6c5b9f0a.js",
+    "runtime-main.js.map": "/exam-app/static/js/runtime-main.6c5b9f0a.js.map",
+    "static/js/2.e3103465.chunk.js": "/exam-app/static/js/2.e3103465.chunk.js",
+    "static/js/2.e3103465.chunk.js.map": "/exam-app/static/js/2.e3103465.chunk.js.map",
+    "index.html": "/exam-app/index.html",
+    "static/css/main.8c0c09c5.chunk.css.map": "/exam-app/static/css/main.8c0c09c5.chunk.css.map",
+    "static/js/2.e3103465.chunk.js.LICENSE.txt": "/exam-app/static/js/2.e3103465.chunk.js.LICENSE.txt",
+    "static/media/FTL-logo-Grey.8694b918.svg": "/exam-app/static/media/FTL-logo-Grey.8694b918.svg",
+    "static/media/pic-1.feac605f.png": "/exam-app/static/media/pic-1.feac605f.png",
+    "static/media/pic-2.a6846581.png": "/exam-app/static/media/pic-2.a6846581.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c5b9f0a.js",
+    "static/js/2.e3103465.chunk.js",
+    "static/css/main.8c0c09c5.chunk.css",
+    "static/js/main.9e4386f3.chunk.js"
+  ]
+}
