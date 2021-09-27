@@ -1,9 +1,9 @@
 import React from 'react';
 import './Banners.scss'
 
-const Banners = ({children}) => {
+const Banners = ({children, classes}) => {
   return (
-    <div className='card-banners'>{ children }</div>
+    <div className={ `card-banners card-banners__${ classes }` }>{ children }</div>
   );
 };
 

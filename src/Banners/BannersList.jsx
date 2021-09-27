@@ -8,17 +8,15 @@ const BannersList = () => {
   const breakpoint = 769;
 
   return (
-    <div className='card__banners'>
-      { width < breakpoint ?
-        <>
-          <Banners children={ <img src={ logo } alt='Logo FTL'/> }/>
-          <Banners children={ <h2 className='card-banners__title'>Kickstart</h2> }/>
-        </> :
-        <>
-          <Banners children={ <h2 className='card-banners__title'>Kickstart</h2> }/>
-          <Banners children={ <img src={ logo } alt='Logo FTL'/> }/>
-        </> }
-    </div>
+    width < breakpoint ?
+      <>
+        <Banners classes='logo' children={ <img className='card-banners__img' src={ logo } alt='Logo FTL'/> }/>
+        <Banners classes='title' children={ <h2>Kickstart</h2> }/>
+      </> :
+      <>
+        <Banners classes='title' children={ <h2>Kickstart</h2> }/>
+        <Banners classes='logo' children={ <img className='card-banners__img' src={ logo } alt='Logo FTL'/> }/>
+      </>
   );
 };
 
