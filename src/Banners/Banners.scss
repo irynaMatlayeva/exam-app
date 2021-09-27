@@ -11,6 +11,14 @@
   &__title {
     margin: 0;
     font-weight: bold;
-    font-size: $font-64;
+    @include fluid-type($font-24, $font-64);
+  }
+
+  &__img {
+    width: 47%;
+
+    @include breakpoint(md-up) {
+      width: 70%;
+    }
   }
 }
